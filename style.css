@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    }
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(19, 18, 18, 0.9);
+
+}
+
+.img {
+
+    border-radius: 50%;
+    
+}
+        
+.banner {
+            
+    background-image: url(D2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+        
+        }
+             
+h1 {
+    
+    padding-top: 30px;
+    color: whitesmoke;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0;
+        
+        }
+        
+h2 {
+    
+    padding-top: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+
+        }
+
+h3 {
+    text-align: center;
+    color: #2F72FF;
+    font-weight: bolder;
+    }
+    
+h5 {
+    font-weight: bolder;
+    color: white;
+    }
+    
+    
+.history {
+    
+    text-align: center;
+    padding: auto;
+    margin: 50px;
+    }
+    
+.values {
+    width: 780px;
+    height: 100%;
+    flex-direction: initial;
+    align-items: flex-start;
+    margin: auto;    
+    justify-content: space-around;
+    font-weight: bold;
+    }
+    
+.values img {
+    width: 100%;
+    }
+    
+p {
+    
+    align-items: center;
+    width: 100%;
+    
+    }
+    
+    
+.carousel-items {
+    
+    width: 700px;
+    height: 700px;
+    align-items: center;
+    }
+    
+h4 {
+    text-align: center;
+    color: #2F72FF;
+    
+        
+    }
+
+.card-nat {
+    border-radius: 15px;
+    padding: 24px;
+    margin: 8px;
+    text-align: center;
+        
+        }
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+        
+        }
+.row-natalia {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+        }
+        
+        
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+        }
+        
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+         }
+        
+.container {
+    min-width: 1200px;
+    margin: 0 auto;
+    background:lightblue;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    background-repeat: repeat-y;
+    background-size: : contain;
+        }
+        
+.footer-clean {
+    padding-top: 16px;
+    margin-top: 50px;
+    background-color: lightblue;
+    color:#4b4c4d;
+    text-align: center;
+        }
+        
+.footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+        }
+        
+.footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+        }
+        
+.footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+        }
+        
+.footer-clean ul a:hover {
+    opacity:1;
+        }
+        
+.footer-clean .item.social {
+    text-align:center;
+        }
+        
+@media (max-width:767px) {
+    .footer-clean .item {
+        text-align:center;
+        padding-bottom:20px;
+          }
+        }
+        
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+            text-align:center;
+          }
+        }
+        
+.footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+        }
+        
+.footer-clean .item.social > a:hover {
+    opacity:0.9;
+        }
+        
+@media (max-width:991px) {
+    .footer-clean .item.social > a {
+        margin-top:40px;
+          }
+        }
+        
+@media (max-width:767px) {
+    .footer-clean .item.social > a {
+        margin-top:10px;
+          }
+        }
+        
+.footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+        
+        }
+        
+.col-lg-3 item social{
+    align-content: center;
+        }
+
+.social {
+    align-content: center;
+    background: lightblue;
+        }
